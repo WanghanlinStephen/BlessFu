@@ -1,0 +1,16 @@
+  .hover-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .text-content {
+    font-family: 'Noto Serif SC', serif; /* 适合中文显示的字体 */
+  }
+  
+  .card-title, .card-text {
+    font-family: 'Noto Serif SC', serif; /* 适合中文显示的字体 */
+  }
+  

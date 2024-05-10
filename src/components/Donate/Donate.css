@@ -1,0 +1,128 @@
+
+  
+  img {
+    border-radius: 5px; /* 给图片增加圆角 */
+  }
+  
+  .video {
+    border-radius: 5px; /* 同样给视频增加圆角 */
+  }
+  
+  .merit-pool-image {
+    max-width: 40%; /* 调整为75%的最大宽度，根据需求调整 */
+    display: block; /* 使图片居中显示 */
+    margin: 0 auto; /* 水平居中 */
+  }
+
+  .lamp-image {
+    max-width: 40%; /* 调整为75%的最大宽度，根据需求调整 */
+    display: block; /* 使图片居中显示 */
+    margin: 0 auto; /* 水平居中 */
+  }
+  .heading {
+    max-width: 80%; /* 调整为75%的最大宽度，根据需求调整 */
+    display: block; /* 使图片居中显示 */
+    margin: 0 auto; /* 水平居中 */
+  }
+  .text-section {
+    margin: 25px 0; /* 顶部和底部保持20px的外边距，左右不设置外边距 */
+    padding: 0 35px; /* 左右内边距增加到30px，根据需求调整 */
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify; /* 两端对齐 */
+  }
+  
+  .text-section .chinese {
+    font-family: 'Noto Serif SC', serif;
+  }
+  
+  .text-section .english {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h3 {
+    color: #333; /* 标题颜色改为黑色 */
+    font-weight: bold;
+    font-family: 'Noto Serif SC', serif;
+  }
+  
+  img {
+    border-radius: 5px; /* 给图片增加圆角 */
+  }
+  
+  .video {
+    border-radius: 5px; /* 同样给视频增加圆角 */
+    max-width: 70%;
+  }
+  
+  .text-content {
+    margin: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 15px; /* 添加内边距以确保边缘有足够空间 */
+  }
+  
+  .text-content p {
+    margin-bottom: 20px; /* 增加段落之间的距离 */
+    text-align: justify; /* 使文本两端对齐 */
+  }
+  
+  .text-content .chinese {
+    font-family: 'Noto Serif SC', serif;
+  }
+  
+  .text-content .english {
+    font-family: 'Arial', sans-serif;
+  }
+
+  .hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.05); /* 鼠标悬停时放大元素 */
+  }
+
+  .carousel-container {
+    width: 50%;  /* 或根据需要调整宽度 */
+    margin: auto; /* 居中显示 */
+    position: relative; /* 子元素可以相对于此容器定位 */
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;  /* 垂直居中 */
+    transform: translateY(-50%);
+    z-index: 5; /* 确保按钮在图片上方 */
+  }
+  
+  .carousel-control-prev {
+    left: 0;  /* 左侧按钮 */
+  }
+  
+  .carousel-control-next {
+    right: 0;  /* 右侧按钮 */
+  }
+
+  .video-container {
+    display: flex;    /* 使用Flexbox */
+    justify-content: center;  /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    gap: 20px;         /* 视频之间的间隔 */
+  }
+  
+  .video-item {
+    flex: 1;  /* Flex项目将平均分配空间 */
+    max-width: 50%; /* 限制最大宽度 */
+  }
+
+  @media (max-width: 768px) {
+    .video-container {
+      flex-direction: column; /* 在小屏幕上堆叠视频 */
+    }
+    .video-item {
+      max-width: 100%; /* 允许视频占满整个容器宽度 */
+    }
+  }

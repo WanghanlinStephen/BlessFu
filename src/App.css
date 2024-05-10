@@ -1,0 +1,70 @@
+/* 总体导航栏样式 */
+.navbar {
+  background-color: #343a40; /* 导航栏背景颜色 */
+}
+
+/* 品牌名称样式 */
+.navbar-brand {
+  display: block; /* 品牌名称占满整行 */
+  margin: auto; /* 品牌名称居中 */
+  font-size: 1.25rem; /* 字体大小 */
+  color: white; /* 字体颜色 */
+}
+
+/* 图片样式 */
+.navbar-logo {
+  width: 80px; /* 根据您的具体图片尺寸调整 */
+  height: auto; /* 保持图片比例 */
+  display: block; /* 图片占满整行 */
+  margin: 0.5rem auto; /* 图片居中，并在上下添加一些空间 */
+}
+
+/* 导航链接样式 */
+.nav-link {
+  color: white; /* 链接字体颜色 */
+  margin: 0 10px; /* 如果需要，调整左右间距 */
+}
+
+.navbar-nav {
+  width: 100%; /* 使导航链接宽度为100% */
+  justify-content: center; /* 水平居中导航链接 */
+}
+
+/* 导航栏切换按钮样式 */
+.navbar-toggler {
+  border-color: rgba(255,255,255,.1); /* 切换按钮边框颜色 */
+  color: rgba(255,255,255,.5); /* 切换按钮颜色 */
+}
+
+/* 当导航栏折叠时的背景颜色 */
+.navbar-collapse {
+  background-color: #343a40; /* 导航栏折叠背景颜色 */
+}
+
+/* 响应式调整 */
+@media (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column; /* 在小屏幕上使导航链接垂直堆叠 */
+  }
+
+  .nav-link {
+    padding: 0.25rem 0; /* 增加垂直间距 */
+  }
+}
+
+body, html {
+  height: 100%;
+  overflow-x: hidden; /* 隐藏水平滚动条 */
+}
+
+.content-area {
+  padding-top: 220px; /* 或者根据Navbar的实际高度来调整 */
+  overflow-y: auto; /* 当内容超出视口高度时，显示滚动条 */
+}
+
+/* 在小屏幕下调整响应式布局 */
+@media (max-width: 991px) {
+  .content-area {
+    padding-top: 160px; /* 在小屏幕上可能需要更多的空间 */
+  }
+}

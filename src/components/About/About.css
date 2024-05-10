@@ -1,0 +1,15 @@
+  .text-section .chinese {
+    font-family: 'Noto Serif SC', serif; /* 使用适合中文显示的字体 */
+  }
+  
+  .text-section .english {
+    font-family: 'Arial', sans-serif; /* 使用适合英文显示的字体 */
+  }
+
+  .hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.05); /* 鼠标悬停时放大元素 */
+  }
