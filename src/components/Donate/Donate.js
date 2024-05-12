@@ -41,14 +41,14 @@ const Donate = () => {
             <img
               src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/donate/lamp_price.jpg`}
               alt="Lamp Price"
-              className="lamp-image mb-1 hover-effect"
+              className="merit-pool-image mb-1 hover-effect"
             />
           </Col>
           <Col md={12}>
             <img
               src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/donate/lamp_activity.jpg`}
               alt="Lamp Activity"
-              className="lamp-image mb-1 hover-effect"
+              className="merit-pool-image mb-1 hover-effect"
             />
           </Col>
         </Row>
@@ -151,7 +151,7 @@ const Donate = () => {
         <img
           src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/donate/general_intro.jpg`}
           alt="General Introduction"
-          className="heading mb-4 hover-effect"
+          className="merit-pool-image mb-4 hover-effect"
         />
       </Container>
       <CustomFooter />

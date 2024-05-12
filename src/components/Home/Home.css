@@ -68,7 +68,15 @@
 
   @media (max-width: 768px) {
     .carousel-container {
+      width: 80%;
+      margin: auto;
+    }
+    .scale-container {
       width: 70%;
+      margin: auto;
+    }
+    .custom-carousel-size {
+      max-width: 60%;
       margin: auto;
     }
   }

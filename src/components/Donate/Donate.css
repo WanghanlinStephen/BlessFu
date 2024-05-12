@@ -14,11 +14,6 @@
     margin: 0 auto; /* 水平居中 */
   }
 
-  .lamp-image {
-    max-width: 40%; /* 调整为75%的最大宽度，根据需求调整 */
-    display: block; /* 使图片居中显示 */
-    margin: 0 auto; /* 水平居中 */
-  }
   .heading {
     max-width: 80%; /* 调整为75%的最大宽度，根据需求调整 */
     display: block; /* 使图片居中显示 */
@@ -124,5 +119,10 @@
     }
     .video-item {
       max-width: 100%; /* 允许视频占满整个容器宽度 */
+    }
+    .merit-pool-image {
+      max-width: 70%; /* 调整为75%的最大宽度，根据需求调整 */
+      display: block; /* 使图片居中显示 */
+      margin: 0 auto; /* 水平居中 */
     }
   }

@@ -13,3 +13,11 @@
   .hover-effect:hover {
     transform: scale(1.05); /* 鼠标悬停时放大元素 */
   }
+
+  @media (max-width: 768px) { 
+    .text-section {
+      display: inline;
+      margin-right: 10px;
+    }
+  }
+  

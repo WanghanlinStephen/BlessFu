@@ -48,9 +48,9 @@ body, html {
 }
 
 .content-area {
-  padding-top: 220px; /* 或者根据Navbar的实际高度来调整 */
+  padding-top: 150px;
   overflow-y: auto; /* 当内容超出视口高度时，显示滚动条 */
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .blur-background {
