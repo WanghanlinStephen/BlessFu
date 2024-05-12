@@ -75,51 +75,51 @@ const Home = () => {
             </Carousel.Item>
           ))}
         </Carousel>
-
-
-        {/* 佛庙简介 ， 风格为 好看的方式进行展示*/}
-        <Container className="my-5">
-          <h2 className="text-center mb-4">福增佛堂</h2>
-          <div className="text-section">
-            <p className="chinese">
-              希望向全世界传播佛教和宏扬佛法；福增佛学会专注于传扬和推广藏传佛法的教义。学生们在上师阿旺格西的指导下学习和修行，跟随着大乘菩萨的道路，帮助忧虑、悲伤、痛苦的众生，逐渐地从利他主义的过程中获益，以及得到非凡的快乐。
-            </p>
-            <p className="english">
-              In hopes to propagate Buddhism and spread Dharma all over the world; DBMS focuses on transmitting and promoting the doctrine of Tibetan Dharma. Students come to study and practice under the Guru's direction and to follow Mahayana Bodhisattva's path and help worried, sorrowful, painful, and vexatious sentient beings, and gradually one can receive benefit from the process of altruism along with the extraordinary joys.
-            </p>
-          </div>
-        </Container>
-
-
-        {/* 佛庙 藏传佛教 + 格鲁派 + 主持 */}
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={6} className="mb-3">
-              <img
-                className="d-block w-100 hover-effect "
-                src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/home/image4.jpg`}
-                alt="Image 4"
-              />
-            </Col>
-            <Col md={6} className="mb-3">
-              <img
-                className="d-block w-100 hover-effect "
-                src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/home/image5.jpg`}
-                alt="Image 5"
-              />
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            <Col md={12}>
-              <img
-                className="d-block w-100 hover-effect "
-                src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/home/image6.jpg`}
-                alt="Image 6"
-              />
-            </Col>
-          </Row>
-        </Container>
       </div>
+
+
+      {/* 佛庙简介 ， 风格为 好看的方式进行展示*/}
+      <Container className="my-5">
+        <h2 className="text-center mb-4">福增佛堂</h2>
+        <div className="text-section">
+          <p className="chinese">
+            希望向全世界传播佛教和宏扬佛法；福增佛学会专注于传扬和推广藏传佛法的教义。学生们在上师阿旺格西的指导下学习和修行，跟随着大乘菩萨的道路，帮助忧虑、悲伤、痛苦的众生，逐渐地从利他主义的过程中获益，以及得到非凡的快乐。
+          </p>
+          <p className="english">
+            In hopes to propagate Buddhism and spread Dharma all over the world; DBMS focuses on transmitting and promoting the doctrine of Tibetan Dharma. Students come to study and practice under the Guru's direction and to follow Mahayana Bodhisattva's path and help worried, sorrowful, painful, and vexatious sentient beings, and gradually one can receive benefit from the process of altruism along with the extraordinary joys.
+          </p>
+        </div>
+      </Container>
+
+
+      {/* 佛庙 藏传佛教 + 格鲁派 + 主持 */}
+      <Container className="scale-container">
+        <Row className="justify-content-center">
+          <Col md={6} className="mb-3">
+            <img
+              className="d-block w-100 hover-effect "
+              src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/home/image4.jpg`}
+              alt="Image 4"
+            />
+          </Col>
+          <Col md={6} className="mb-3">
+            <img
+              className="d-block w-100 hover-effect "
+              src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/home/image5.jpg`}
+              alt="Image 5"
+            />
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col md={12}>
+            <img
+              className="d-block w-100 hover-effect "
+              src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/home/image6.jpg`}
+              alt="Image 6"
+            />
+          </Col>
+        </Row>
+      </Container>
 
       {/* 365福语 */}
       <div className="custom-carousel-size">
@@ -157,7 +157,7 @@ const Home = () => {
       </div>
 
       <CustomFooter />
-    </div>
+    </div >
 
   );
 };

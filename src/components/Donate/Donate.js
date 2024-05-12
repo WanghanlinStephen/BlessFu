@@ -9,7 +9,7 @@ const Donate = () => {
 
   for (let i = 1; i <= imageCount; i++) {
     images.push({
-      src: `${process.env.PUBLIC_URL}/images/donate/item${i}.jpg`,
+      src: `https://blessfuweb.s3.ca-central-1.amazonaws.com/images/donate/item${i}.jpg`,
       alt: `Image ${i}`
     });
   }

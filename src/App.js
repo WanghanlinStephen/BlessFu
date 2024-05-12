@@ -12,13 +12,15 @@ const App = () => {
   return (
     <Router>
       <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="flex-column text-center">
+      
         <Container>
+          <div className="blur-background"></div>
           <Navbar.Brand className="w-100">
             <img src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/heading/heading.jpg`} alt="Logo" className="navbar-logo" />
-
             福增佛学会 Bless Fu
           </Navbar.Brand>
         </Container>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100">
