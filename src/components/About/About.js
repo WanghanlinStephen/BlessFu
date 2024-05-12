@@ -8,7 +8,7 @@ const About = () => (
     <Container>
       <Card>
         <Card.Body>
-          <Card.Title className="text-section english">Google Map Location:</Card.Title>
+          <Card.Title className="text-section english">Google Map:</Card.Title>
           <Card.Img className="hover-effect" variant="bottom" src={`https://blessfuweb.s3.ca-central-1.amazonaws.com/images/about/map.png`} alt="Google Map" />
         </Card.Body>
       </Card>
