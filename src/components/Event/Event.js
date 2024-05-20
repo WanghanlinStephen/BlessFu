@@ -11,7 +11,7 @@ const Event = () => (
         <Col md={6} className="mb-4">
           <Card className="h-100 hover-card">
             <Card.Body>
-              <Card.Title>值班工作指南</Card.Title>
+              <Card.Title>活动通知</Card.Title>
               <Card.Text>
                 <strong>主题：</strong>观音菩萨法会<br />
                 <strong>地点：</strong>福增佛堂 TH-9 3200 Corvette Way, Richmond<br />
