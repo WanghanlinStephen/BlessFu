@@ -14,7 +14,7 @@ const Event = () => (
               <Card.Title>活动通知</Card.Title>
               <Card.Text>
                 <strong>主题：</strong>观音菩萨法会<br />
-                <strong>地点：</strong>福增佛堂 TH-9 3200 Corvette Way, Richmond<br />
+                {/* <strong>地点：</strong>福增佛堂 TH-9 3200 Corvette Way, Richmond<br /> */}
                 <strong>时间：</strong>2024年5月26日（周日）11:00 AM - 3:00 PM<br />
                 <br />
                 <strong>萨嘎达瓦月：</strong>从5月9日开始，萨嘎达瓦月为佛陀一生中三大殊胜日（降生、成道、涅槃）所在之月。在此月修行的善业功德将不可思议地增长，是一年中最快速累积福德资粮的月份。福增佛学按传统绵延至今，在佛堂天天荟供，共同成就「万灯、万水、万花、万果」供佛功德，并举办观音法会，授菩萨戒及皈依法会。<br />
@@ -50,7 +50,7 @@ const Event = () => (
               <Card.Title>活动通知</Card.Title>
               <Card.Text>
                 <strong>主题：</strong>萨嘎达瓦日<br />
-                <strong>地点：</strong>福增佛堂 TH-9 3200 Corvette Way, Richmond<br />
+                {/* <strong>地点：</strong>福增佛堂 TH-9 3200 Corvette Way, Richmond<br /> */}
                 <strong>时间：</strong>2024年5月23日（周四）11:00 AM - 3:00 PM<br />
                 <strong>内容：</strong>供养佛法僧（供花，供果，供素食，持咒等）<br />
                 <strong>萨嘎达瓦节：</strong>又称佛吉祥日，与佛陀一生中三件重要的大事（诞生、成道、涅槃）联系在一起的神圣日子。<br />
