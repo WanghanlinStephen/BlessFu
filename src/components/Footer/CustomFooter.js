@@ -12,10 +12,10 @@ export default function CustomFooter() {
         <MDBRow className='mt-3'>
           <MDBCol md="6" lg="6" xl="6" className='mb-md-0 mb-4'>
             <h6 className='text-uppercase fw-bold mb-6'>Contact</h6>
-            <p>
+            {/* <p>
               <MDBIcon icon="home" className="me-2" />
               TH9, 3200 Corvette Way, Richmond, BC V6X 0T8, Canada
-            </p>
+            </p> */}
             <p>
               <MDBIcon icon="envelope" className="me-3" />
               info@blessfu.com
